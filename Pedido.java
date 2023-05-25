@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Pedido {
+public class Pedido extends Item_pedido {
 
     private ArrayList<Item_pedido> iP = new ArrayList<>();
 

@@ -29,6 +29,14 @@ public class Prato {
         return codigo;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -80,6 +88,6 @@ public class Prato {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + ", Descrição: " + descricao + ", Preço: " + preco + ", Disponível: " + (status ? "Sim" : "Não");
+        return  "\n" + codigo + " ==> Nome: " + nome + ", Descrição: " + descricao + ", Preço: " + preco + ", Disponível: " + (status ? "Sim\n" : "Não\n");
     }
 }
